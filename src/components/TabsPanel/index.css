@@ -1,0 +1,20 @@
+.eachTab {
+  margin-right: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.selectedTab {
+  margin-right: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}

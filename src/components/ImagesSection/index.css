@@ -1,0 +1,16 @@
+.eachImg {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.each-image {
+  height: 100px;
+  width: 100px;
+}
