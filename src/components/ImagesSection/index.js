@@ -11,7 +11,7 @@ const ImageSection = props => {
   return (
     <li className="eachImg">
       <button type="button" className="btn" onClick={onSelectImage}>
-        <img className="each-image" src={thumbnailUrl} alt="thumbnail pic" />
+        <img className="each-image" src={thumbnailUrl} alt="thumbnail" />
       </button>
     </li>
   )
