@@ -259,12 +259,10 @@ class MatchGame extends Component {
 
   componentDidMount() {
     this.count = 0
-    this.randomImgComponent =
-      imagesList[Math.ceil(Math.random() * imagesList.length - 1)]
 
-    this.randomImg = this.randomImgComponent.imageUrl
+    this.randomImg = imagesList[0].imageUrl
 
-    this.randomImgId = this.randomImgComponent.id
+    this.randomImgId = imagesList[0].id
 
     this.timerId = setInterval(this.tick, 1000)
   }
@@ -297,12 +295,10 @@ class MatchGame extends Component {
       tabId: tabsList[0].tabId,
     })
     this.count = 0
-    this.randomImgComponent =
-      imagesList[Math.ceil(Math.random() * imagesList.length - 1)]
+    this.randomImg = imagesList[0].imageUrl
 
-    this.randomImg = this.randomImgComponent.imageUrl
+    this.randomImgId = imagesList[0].id
 
-    this.randomImgId = this.randomImgComponent.id
     this.timerId = setInterval(this.tick, 1000)
   }
 
